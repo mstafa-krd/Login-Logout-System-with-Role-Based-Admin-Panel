@@ -1,0 +1,11 @@
+.continer {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .continer {
+    margin-left: 80px;
+  }
+}

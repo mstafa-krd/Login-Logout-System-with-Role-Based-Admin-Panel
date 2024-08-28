@@ -1,0 +1,13 @@
+
+
+.role {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.role label {
+    display: flex;
+    gap:10px;
+}

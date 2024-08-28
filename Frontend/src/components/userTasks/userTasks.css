@@ -1,0 +1,10 @@
+.addtask-button {
+  margin-left: 270px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .addtask-button {
+    margin-left: 100px;
+  }
+}
