@@ -59,7 +59,7 @@ This project is a fullstack application with an authentication system and role-b
 - **Environment Variables:** Create a `.env` file with the following variables:
   ```env
   PORT = 4000
-  MONGODB_PASSWORD = OHpLje9VWBC9xWjq
+  MONGODB_PASSWORD = <Enter the mongoDB password here>
   SESSION_SECRET = "hAEoYZFYD3XERoEnFhDRHuzOYscVm6yZhzwLBg43thGq31RVcm"
 
   ```
