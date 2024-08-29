@@ -58,4 +58,7 @@ app.use("/api", authRouter);
 app.use("/api/user", userRouter);
 app.use("/api/task", tasksRouter);
 
-app.listen(port, console.log(`server running on port ${port}`));
+if (process.env.NODE_ENV !== "test") {
+  app.listen(port, () => console.log(`server running on port ${port}`));
+}
+module.exports = app; 
