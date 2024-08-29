@@ -96,6 +96,8 @@ This project is a fullstack application with an authentication system and role-b
 
 #### Managing Users
 
+- **Runnig the Frontend server:** you should start from **"/login"** route since theres not need for the home page with "/" route
+
 1. **Add New User:**
    - Navigate to the "Dashboard" .
    - Click "Add New User."
